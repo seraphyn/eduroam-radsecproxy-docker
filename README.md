@@ -32,7 +32,7 @@ radsecproxy is used within the eduroam infrastructure at the federation or top l
 ---
 ### Changes in 1.11.2
 
-- The container no longer requires run.sh script. It starts radsecproxy in the foreground and performs a tee into `/var/log/radsecproxy.log` file within the container 
+- The container no longer requires run.sh script. It starts radsecproxy in the foreground and performs a tee into `/var/log/radsecproxy/radsecproxy.log` file within the container 
 
 ---
 ### Changes in 1.8.2
