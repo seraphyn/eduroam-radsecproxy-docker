@@ -1,5 +1,5 @@
 ### Supported tags
-* [```1.11.2``` \(*1.10.0/Dockerfile*\)](https://github.com/spgreen/eduroam-radsecproxy-docker/blob/master/1.11.2/Dockerfile)
+* [```1.11.2``` \(*1.11.2/Dockerfile*\)](https://github.com/spgreen/eduroam-radsecproxy-docker/blob/master/1.11.2/Dockerfile)
 * [```1.10.0``` \(*1.10.0/Dockerfile*\)](https://github.com/spgreen/eduroam-radsecproxy-docker/blob/master/1.10.0/Dockerfile)
 * [```1.9.3``` \(*1.9.3/Dockerfile*\)](https://github.com/spgreen/eduroam-radsecproxy-docker/blob/master/1.9.3/Dockerfile)
 * [```1.9.2``` \(*1.9.2/Dockerfile*\)](https://github.com/spgreen/eduroam-radsecproxy-docker/blob/master/1.9.2/Dockerfile)
