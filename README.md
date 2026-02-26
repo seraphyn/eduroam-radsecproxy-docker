@@ -1,4 +1,5 @@
 ### Supported tags
+* [```1.11.2``` \(*1.10.0/Dockerfile*\)](https://github.com/spgreen/eduroam-radsecproxy-docker/blob/master/1.11.2/Dockerfile)
 * [```1.10.0``` \(*1.10.0/Dockerfile*\)](https://github.com/spgreen/eduroam-radsecproxy-docker/blob/master/1.10.0/Dockerfile)
 * [```1.9.3``` \(*1.9.3/Dockerfile*\)](https://github.com/spgreen/eduroam-radsecproxy-docker/blob/master/1.9.3/Dockerfile)
 * [```1.9.2``` \(*1.9.2/Dockerfile*\)](https://github.com/spgreen/eduroam-radsecproxy-docker/blob/master/1.9.2/Dockerfile)
@@ -27,6 +28,11 @@ radsecproxy is a generic RADIUS proxy that in addition to to usual RADIUS UDP tr
 radsecproxy is used within the eduroam infrastructure at the federation or top level to securely proxy RADIUS requests between known eduroam Identity and Service Providers.
 
 ![eduroam logo](https://github.com/spgreen/eduroam-radsecproxy-docker/raw/master/eduroam_trans_450pix.png)
+
+---
+### Changes in 1.11.2
+
+- The container no longer requires run.sh script. It starts radsecproxy in the foreground and performs a tee into `/var/log/radsecproxy.log` file within the container 
 
 ---
 ### Changes in 1.8.2
